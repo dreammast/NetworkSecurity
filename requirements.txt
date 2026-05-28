@@ -1,0 +1,11 @@
+python-dotenv
+pandas 
+numpy
+pymongo
+setuptools
+certifi
+
+
+
+
+# -e .
