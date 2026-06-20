@@ -1,0 +1,12 @@
+[2026-06-14 19:10:12,048] root - INFO - Starting data ingestion
+[2026-06-14 19:10:28,094] root - INFO - Performed train test split on the dataframe
+[2026-06-14 19:10:28,094] root - INFO - train set length : 8844
+[2026-06-14 19:10:28,094] root - INFO - exporting train and test file path
+[2026-06-14 19:10:28,152] root - INFO - Exported train and test file path successfully
+[2026-06-14 19:10:28,152] root - INFO - Data ingestion completed and artifact: DataIngestionArtifact(trained_file_path='NetworkSecurity\\Artifacts\\06-14-2026_19-10-10\\data_ingestion\\ingested\\train.csv', testing_file_path='NetworkSecurity\\Artifacts\\06-14-2026_19-10-10\\data_ingestion\\ingested\\test.csv')
+[2026-06-14 19:10:28,156] root - INFO - Starting data validation
+[2026-06-14 19:10:28,190] root - INFO - Required number of columns: 31
+[2026-06-14 19:10:28,190] root - INFO - Dataframe has columns: 31
+[2026-06-14 19:10:28,190] root - INFO - Required number of columns: 31
+[2026-06-14 19:10:28,190] root - INFO - Dataframe has columns: 31
+[2026-06-14 19:10:28,380] root - INFO - data validation completed and artifact: {data_validation_artifact}
