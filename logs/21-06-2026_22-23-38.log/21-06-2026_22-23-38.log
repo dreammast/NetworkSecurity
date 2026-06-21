@@ -1,0 +1,59 @@
+[2026-06-21 22:23:48,484] httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-06-21 22:23:48,510] dagshub - INFO - Accessing as dreammast
+[2026-06-21 22:23:50,137] httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/dreammast/NetworkSecurity "HTTP/1.1 200 OK"
+[2026-06-21 22:23:51,619] httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-06-21 22:23:51,623] dagshub - INFO - Initialized MLflow to track repo "dreammast/NetworkSecurity"
+[2026-06-21 22:23:51,625] dagshub - INFO - Repository dreammast/NetworkSecurity initialized!
+[2026-06-21 22:24:20,565] root - INFO - start data Ingestion
+[2026-06-21 22:24:24,744] root - INFO - Performed train test split on the dataframe
+[2026-06-21 22:24:24,745] root - INFO - train set length : 8844
+[2026-06-21 22:24:24,746] root - INFO - exporting train and test file path
+[2026-06-21 22:24:24,889] root - INFO - Exported train and test file path successfully
+[2026-06-21 22:24:24,890] root - INFO - Data ingestion completed and artifact:DataIngestionArtifact(trained_file_path='NetworkSecurity\\Artifacts\\06-21-2026_22-23-39\\data_ingestion\\ingested\\train.csv', testing_file_path='NetworkSecurity\\Artifacts\\06-21-2026_22-23-39\\data_ingestion\\ingested\\test.csv')
+[2026-06-21 22:24:24,902] root - INFO - Starting data validation
+[2026-06-21 22:24:24,957] root - INFO - Required number of columns: 31
+[2026-06-21 22:24:24,958] root - INFO - Dataframe has columns: 31
+[2026-06-21 22:24:24,958] root - INFO - Required number of columns: 31
+[2026-06-21 22:24:24,958] root - INFO - Dataframe has columns: 31
+[2026-06-21 22:24:25,366] root - INFO - data transformation started
+[2026-06-21 22:24:25,366] root - INFO - entered the initiate_data_transformation method of DataTransformation class
+[2026-06-21 22:24:25,366] root - INFO - starting the data transformation
+[2026-06-21 22:24:25,424] root - INFO - entered the data-transformer--bj method of transformation class
+[2026-06-21 22:24:25,424] root - INFO - initialized thhe KNN with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-06-21 22:24:25,494] root - INFO - entered the save_object method for mainutils class
+[2026-06-21 22:24:25,502] root - INFO - exited the save_object method of mainutils class
+[2026-06-21 22:24:25,502] root - INFO - entered the save_object method for mainutils class
+[2026-06-21 22:24:25,508] root - INFO - exited the save_object method of mainutils class
+[2026-06-21 22:24:25,510] root - INFO - Model Training started
+[2026-06-22 01:26:42,019] urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /dreammast/NetworkSecurity.mlflow/api/2.0/mlflow/logged-models/m-b69f9136ce874fbfad8234b58a4aa076
+[2026-06-22 01:26:57,442] root - INFO - entered the save_object method for mainutils class
+[2026-06-22 01:26:57,444] root - INFO - exited the save_object method of mainutils class
+[2026-06-22 01:26:57,444] root - INFO - entered the save_object method for mainutils class
+[2026-06-22 01:26:57,487] root - INFO - exited the save_object method of mainutils class
+[2026-06-22 01:26:57,487] root - INFO - model trainer artifact:<network_security.entity.config_entity.ModelTrainerConfig object at 0x0000013D6E031650>
+[2026-06-22 01:28:14,213] root - INFO - start data Ingestion
+[2026-06-22 01:28:18,175] root - INFO - Performed train test split on the dataframe
+[2026-06-22 01:28:18,175] root - INFO - train set length : 8844
+[2026-06-22 01:28:18,175] root - INFO - exporting train and test file path
+[2026-06-22 01:28:18,248] root - INFO - Exported train and test file path successfully
+[2026-06-22 01:28:18,248] root - INFO - Data ingestion completed and artifact:DataIngestionArtifact(trained_file_path='NetworkSecurity\\Artifacts\\06-21-2026_22-23-39\\data_ingestion\\ingested\\train.csv', testing_file_path='NetworkSecurity\\Artifacts\\06-21-2026_22-23-39\\data_ingestion\\ingested\\test.csv')
+[2026-06-22 01:28:18,248] root - INFO - Starting data validation
+[2026-06-22 01:28:18,279] root - INFO - Required number of columns: 31
+[2026-06-22 01:28:18,279] root - INFO - Dataframe has columns: 31
+[2026-06-22 01:28:18,279] root - INFO - Required number of columns: 31
+[2026-06-22 01:28:18,279] root - INFO - Dataframe has columns: 31
+[2026-06-22 01:28:18,477] root - INFO - data transformation started
+[2026-06-22 01:28:18,477] root - INFO - entered the initiate_data_transformation method of DataTransformation class
+[2026-06-22 01:28:18,477] root - INFO - starting the data transformation
+[2026-06-22 01:28:18,511] root - INFO - entered the data-transformer--bj method of transformation class
+[2026-06-22 01:28:18,511] root - INFO - initialized thhe KNN with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-06-22 01:28:18,529] root - INFO - entered the save_object method for mainutils class
+[2026-06-22 01:28:18,529] root - INFO - exited the save_object method of mainutils class
+[2026-06-22 01:28:18,529] root - INFO - entered the save_object method for mainutils class
+[2026-06-22 01:28:18,529] root - INFO - exited the save_object method of mainutils class
+[2026-06-22 01:28:18,529] root - INFO - Model Training started
+[2026-06-22 01:37:42,196] root - INFO - entered the save_object method for mainutils class
+[2026-06-22 01:37:42,197] root - INFO - exited the save_object method of mainutils class
+[2026-06-22 01:37:42,197] root - INFO - entered the save_object method for mainutils class
+[2026-06-22 01:37:42,291] root - INFO - exited the save_object method of mainutils class
+[2026-06-22 01:37:42,292] root - INFO - model trainer artifact:<network_security.entity.config_entity.ModelTrainerConfig object at 0x0000013D12980C10>
