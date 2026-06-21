@@ -1,0 +1,25 @@
+[2026-06-21 14:11:46,977] root - INFO - Starting data ingestion
+[2026-06-21 14:11:51,537] root - INFO - Performed train test split on the dataframe
+[2026-06-21 14:11:51,537] root - INFO - train set length : 8844
+[2026-06-21 14:11:51,537] root - INFO - exporting train and test file path
+[2026-06-21 14:11:51,711] root - INFO - Exported train and test file path successfully
+[2026-06-21 14:11:51,711] root - INFO - Data ingestion completed and artifact: DataIngestionArtifact(trained_file_path='NetworkSecurity\\Artifacts\\06-21-2026_14-11-33\\data_ingestion\\ingested\\train.csv', testing_file_path='NetworkSecurity\\Artifacts\\06-21-2026_14-11-33\\data_ingestion\\ingested\\test.csv')
+[2026-06-21 14:11:51,719] root - INFO - Starting data validation
+[2026-06-21 14:11:51,785] root - INFO - Required number of columns: 31
+[2026-06-21 14:11:51,785] root - INFO - Dataframe has columns: 31
+[2026-06-21 14:11:51,785] root - INFO - Required number of columns: 31
+[2026-06-21 14:11:51,785] root - INFO - Dataframe has columns: 31
+[2026-06-21 14:11:52,276] root - INFO - data validation completed and artifact: {data_validation_artifact}
+[2026-06-21 14:11:52,276] root - INFO - data transformation started
+[2026-06-21 14:11:52,276] root - INFO - entered the initiate_data_transformation method of DataTransformation class
+[2026-06-21 14:11:52,276] root - INFO - starting the data transformation
+[2026-06-21 14:11:52,344] root - INFO - entered the data-transformer--bj method of transformation class
+[2026-06-21 14:11:52,344] root - INFO - initialized thhe KNN with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-06-21 14:11:52,437] root - INFO - entered the save_object method for mainutils class
+[2026-06-21 14:11:52,448] root - INFO - exited the save_object method of mainutils class
+[2026-06-21 14:11:52,453] root - INFO - data transformation completed
+[2026-06-21 14:11:52,453] root - INFO - Model Training started
+[2026-06-21 14:21:54,631] root - INFO - entered the save_object method for mainutils class
+[2026-06-21 14:21:54,635] root - INFO - exited the save_object method of mainutils class
+[2026-06-21 14:21:54,635] root - INFO - model trainer artifact:<network_security.entity.config_entity.ModelTrainerConfig object at 0x000002C85663CC10>
+[2026-06-21 14:21:54,643] root - INFO - model training artifact created
