@@ -1,7 +1,0 @@
-[2026-06-14 19:07:55,362] root - INFO - Starting data ingestion
-[2026-06-14 19:07:59,925] root - INFO - Performed train test split on the dataframe
-[2026-06-14 19:07:59,925] root - INFO - train set length : 8844
-[2026-06-14 19:07:59,934] root - INFO - exporting train and test file path
-[2026-06-14 19:08:00,053] root - INFO - Exported train and test file path successfully
-[2026-06-14 19:08:00,053] root - INFO - Data ingestion completed and artifact: DataIngestionArtifact(trained_file_path='NetworkSecurity\\Artifacts\\06-14-2026_19-07-53\\data_ingestion\\ingested\\train.csv', testing_file_path='NetworkSecurity\\Artifacts\\06-14-2026_19-07-53\\data_ingestion\\ingested\\test.csv')
-[2026-06-14 19:08:00,058] root - INFO - Starting data validation
